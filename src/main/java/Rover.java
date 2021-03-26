@@ -11,11 +11,31 @@ public class Rover {
     }
 
     public String getCoOrdinates() {
-        String coOrdinates=String.valueOf(xCoOrdinate)+" "+String.valueOf(yCoOrdinate)+" "+direction;
-        return coOrdinates;
+        return xCoOrdinate +" "+ yCoOrdinate +" "+direction;
+
     }
 
+    public int getxCoOrdinate() {
+        return xCoOrdinate;
+    }
 
+    public void setxCoOrdinate(int xCoOrdinate) {
+        this.xCoOrdinate = xCoOrdinate;
+    }
 
+    public int getyCoOrdinate() {
+        return yCoOrdinate;
+    }
 
+    public void setyCoOrdinate(int yCoOrdinate) {
+        this.yCoOrdinate = yCoOrdinate;
+    }
+
+    public char getDirection() {
+        return direction;
+    }
+
+    public void setDirection(char direction) {
+        this.direction = direction;
+    }
 }
