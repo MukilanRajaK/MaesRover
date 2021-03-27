@@ -5,9 +5,9 @@ public class MarsPlateau {
     private int[][] map;
 
     public MarsPlateau(int xMax, int yMax) {
-        this.xMax=xMax;
-        this.yMax=yMax;
-        map =new int[xMax][yMax];
+        this.xMax = xMax;
+        this.yMax = yMax;
+        map = new int[xMax][yMax];
     }
 
     public int getYMax() {
@@ -18,13 +18,11 @@ public class MarsPlateau {
         return xMax;
     }
 
-    public void setMap(int x,int y,int value)
-    {
-        map[x][y]+=value;
+    public void setMap(int x, int y, int value) {
+        map[x][y] += value;
     }
 
-    public int getMap(int x,int y)
-    {
+    public int getMap(int x, int y) {
         return map[x][y];
     }
 }

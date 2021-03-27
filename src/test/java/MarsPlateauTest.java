@@ -7,10 +7,10 @@ public class MarsPlateauTest {
     void checkingWhetherMarsPlateauMapIsUpdatedAndRetrievedCorrectly() {
         MarsPlateau marsPlateau = new MarsPlateau(5, 6);
 
-        marsPlateau.setMap(2,3,1);
+        marsPlateau.setMap(2, 3, 1);
         int mapCoOrdinateValue = marsPlateau.getMap(2, 3);
 
-        assertEquals(1,mapCoOrdinateValue);
+        assertEquals(1, mapCoOrdinateValue);
 
     }
 }
