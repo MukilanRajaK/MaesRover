@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MarsPlateauTest {
     @Test
-    void checkingWhetherMarsPlateauMapIsUpdatedAndRetreivedCorrectly() {
+    void checkingWhetherMarsPlateauMapIsUpdatedAndRetrievedCorrectly() {
         MarsPlateau marsPlateau = new MarsPlateau(5, 6);
 
         marsPlateau.setMap(2,3,1);

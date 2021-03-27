@@ -2,7 +2,7 @@ public class MarsPlateau {
 
     private final int yMax;
     private final int xMax;
-    private int map[][];
+    private int[][] map;
 
     public MarsPlateau(int xMax, int yMax) {
         this.xMax=xMax;
@@ -10,11 +10,11 @@ public class MarsPlateau {
         map =new int[xMax][yMax];
     }
 
-    public int getyMax() {
+    public int getYMax() {
         return yMax;
     }
 
-    public int getxMax() {
+    public int getXMax() {
         return xMax;
     }
 
