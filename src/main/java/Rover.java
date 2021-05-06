@@ -60,7 +60,7 @@ public class Rover {
         return "Out of Boundary";
     }
 
-    private boolean checkCoOrdinatesBoundary(MarsPlateau marsPlateau) {
+    public boolean checkCoOrdinatesBoundary(MarsPlateau marsPlateau) {
         int maxXCoOrdinate = marsPlateau.getXMax();
         int maxYCoOrdinate = marsPlateau.getYMax();
         return ((xCoOrdinate >= 0 && xCoOrdinate <= maxXCoOrdinate) && (yCoOrdinate >= 0 && yCoOrdinate <= maxYCoOrdinate));
